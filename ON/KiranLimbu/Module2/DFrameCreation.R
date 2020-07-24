@@ -5,6 +5,7 @@ rain <- c(TRUE, TRUE, FALSE, FALSE, TRUE);
 
 # Using above variable create data frame
 df <- data.frame(days, temp, rain);
+print(df);
 
 # check structure
 print(str(df));
