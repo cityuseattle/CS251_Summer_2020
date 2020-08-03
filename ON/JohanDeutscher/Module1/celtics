@@ -1,0 +1,3 @@
+exceldate = read_excel(C:\Users\johan\Documents\CityU\celtics2.xlsx")
+dfdata = data.frame(exceldata)
+dfdata
