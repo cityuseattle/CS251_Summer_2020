@@ -13,7 +13,7 @@
 
 # [1] 591.1844
 
-PP03_function<-function(a,b,c) {
+PP03_function<-function(a,h,c) {
     m<-mean(a)
     print(m)
     V<-var(a)
@@ -23,4 +23,4 @@ PP03_function<-function(a,b,c) {
     r<-scale(a)
     z<-((c-m)/s)
     print(z)
-    return(b)}
+    return(h)}
