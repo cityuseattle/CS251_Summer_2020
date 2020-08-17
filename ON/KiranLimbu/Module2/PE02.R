@@ -2,7 +2,7 @@
 Name <- c('Avery Bradley', 'Jae Crowder', 'John Holland', 'R.J. Hunter', 'Jonas Jerebko');
 Team <- c('Boston Celtics', 'Boston Celtics', 'Boston Celtics', 'Boston Celtics', 'Boston Celtics');
 Number <- c(0.0, 99.0, 30.0, 28.0, 8.0);
-Position <- c('PG', 'SF', 'SG', 'SG', 'PG');
+Position <- c('PG', 'SF', 'SG', 'SG', 'PF');
 Age <- c(25.0, 25.0, 27.0, 22.0, 29.0);
 Height <- c(74, 78, 77, 77, 82);
 Weight <- c(180, 235, 205, 185, 231);
