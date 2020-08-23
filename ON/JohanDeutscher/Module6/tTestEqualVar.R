@@ -6,9 +6,9 @@ mc1<-c(150,152,154,152,151)
 mc2<-c(156,155,158,155,154)
 
 #First check the equality of variance - F test will be covered later
-print(var.test(x-mc1,y=mc2)) #Run your code
+print(var.test(x=mc1,y=mc2)) #Run your code
 # the o/p of the run: p-value is high>0.5 then the two variances are equal
 
 #Then we will do the t.test for equal variance
-tTest.result<-t.test(x=mc1,y=,mc2,var.equa=T)
+tTest.result<-t.test(x=mc1,y=mc2,var.equa=T)
 print(tTest.result)
