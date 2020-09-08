@@ -1,0 +1,5 @@
+test1 <- c(1, 3, 5, 7, 9, 11, 13)
+test2 <- c(-1, 3, -5, 7, -9, 11, -13)
+final.frame <- data.frame(test1, test2)
+result <- with(final.frame, cor(test1, test2))
+print(result)
