@@ -4,7 +4,7 @@ library(ggplot2)
 #Read file and assign it to df.train variable
 df.train=read.csv('titanic_train.csv')
 #View(head(df.train))
-#print(str(df.train))
+print(str(df.train))
 
 #Visualize the survived column
 print(ggplot(df.train,aes(Pclass))+geom_bar(aes(fill=factor(Pclass))))
@@ -65,6 +65,8 @@ df.train$Survived<-factor(df.train$Survived)
 df.train$Pclass<-factor(df.train$Pclass)
 df.train$Parch<-factor(df.train$Parch)
 df.train$SibSp<-factor(df.train$SibSp)
+print("check")
+print(df.train$Survived)
 
 library(caTools)
 set.seed(101)
